@@ -1,0 +1,3 @@
+index=wineventlog EventCode=4720
+| table _time, Account_Name, host
+| sort -_time
