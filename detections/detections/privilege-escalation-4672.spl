@@ -1,0 +1,3 @@
+index=wineventlog EventCode=4672
+| stats count by Account_Name
+| sort -count
