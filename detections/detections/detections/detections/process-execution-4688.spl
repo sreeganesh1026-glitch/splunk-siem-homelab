@@ -1,0 +1,3 @@
+index=wineventlog EventCode=4688
+| table _time, Account_Name, New_Process_Name
+| sort -_time
